@@ -5,7 +5,7 @@ I currently work as a Junior Software Developer at BSED GmbH, where I gain pract
 
 I’m also the co-founder of TS-Code Studios, a developer group I started with a friend, where we collaborate on projects, exchange ideas, and build solutions together.
 
-
+----------------------------------------------------
 
 
 ## Experience and Knowledge 🎓
@@ -36,5 +36,7 @@ I’m also the co-founder of TS-Code Studios, a developer group I started with a
 ![AI/ML%20Development Badge](https://img.shields.io/badge/AI/ML%20Development-613583?style=flat-square&logo=numpy)
 ![Operating%20System%20Development Badge](https://img.shields.io/badge/Operating%20System%20Development-241f31?style=flat-square&logo=openbsd)
 ![Cybersecurity Badge](https://img.shields.io/badge/Cybersecurity-ffffff?style=flat-square&logo=kalilinux)
+
+---------------------------------------------------
 
 ![Github Stats](https://github-readme-stats.vercel.app/api?username=simonkdev&count_private=true&show_icons=true&include_all_commits=true)

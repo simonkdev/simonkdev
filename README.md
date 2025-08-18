@@ -1,7 +1,9 @@
 ## Hello There 👋
 
-My name is Simon. I am a german highschool student with a keen interest in programming and technology. I am currently working as a Junior Software Developer for BSED GmbH, while also teaching myself more complex topics in my spare time.
+Hi, I’m Simon — a German high school student with a strong passion for programming and technology.
+I currently work as a Junior Software Developer at BSED GmbH, where I gain practical experience while continuously refining my skills. Beyond that, I dedicate my spare time to exploring advanced topics in software development and experimenting with new technologies.
 
+I’m also the co-founder of TS-Code Studios, a developer group I started with a friend, where we collaborate on projects, exchange ideas, and build solutions together.
 
 
 

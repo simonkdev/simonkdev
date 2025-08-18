@@ -1,7 +1,7 @@
 ## Hello There 👋
 
 Hi, I’m Simon — a German high school student with a strong passion for programming and technology.
-I currently work as a Junior Software Developer at BSED GmbH, where I gain practical experience while continuously refining my skills. Beyond that, I dedicate my spare time to exploring advanced topics in software development such as Operating System Development as well as Artificial Intelligence / Machine Learning and experimenting with emerging technologies.
+I currently work as a Junior Software Developer at BSED GmbH, where I gain practical experience while continuously refining my skills. Beyond that, I dedicate my spare time to exploring advanced topics in software development and experimenting with emerging technologies.
 
 I’m also the co-founder of TS-Code Studios, a developer group I started with a friend, where we collaborate on projects, exchange ideas, and build solutions together.
 
@@ -31,5 +31,10 @@ I’m also the co-founder of TS-Code Studios, a developer group I started with a
 #### Tools and Platforms 🛠️
 ![Docker Badge](https://img.shields.io/badge/Docker-241f31?style=flat-square&logo=docker)
 ![GitHub Badge](https://img.shields.io/badge/GitHub-26a269?style=flat-square&logo=github)
+
+##### Currently Learning 📖
+![AI/ML%20Development Badge](https://img.shields.io/badge/AI/ML%20Development-613583?style=flat-square&logo=numpy)
+![Operating%20System%20Development Badge](https://img.shields.io/badge/Operating%20System%20Development-241f31?style=flat-square&logo=openbsd)
+![Cybersecurity Badge](https://img.shields.io/badge/Cybersecurity-5e5c64?style=flat-square&logo=kalilinux)
 
 ![Github Stats](https://github-readme-stats.vercel.app/api?username=simonkdev&count_private=true&show_icons=true&include_all_commits=true)

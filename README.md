@@ -23,6 +23,7 @@ I’m always open to professional inquiries or collaboration — don’t hesitat
 ![CSS Badge](https://img.shields.io/badge/CSS-241f31?style=flat-square&logo=css3)
 ![C%20 Badge](https://img.shields.io/badge/C%20-241f31?style=flat-square&logo=c)
 ![Assembly%20(x86) Badge](https://img.shields.io/badge/Assembly%20(x86)-241f31?style=flat-square&logo=assemblyscript)
+[![Java Badge](https://img.shields.io/badge/Java-241f31?style=flat-square&logo=)](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxsWwhTNalYnA0S3iFLypicnoApDBVGuSENw&s)
 ![Python Badge](https://img.shields.io/badge/Python-241f31?style=flat-square&logo=python)
 ![Arduino Badge](https://img.shields.io/badge/Arduino-241f31?style=flat-square&logo=arduino)
 ![Bash Badge](https://img.shields.io/badge/Bash-241f31?style=flat-square&logo=gnubash)

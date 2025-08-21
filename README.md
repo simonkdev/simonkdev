@@ -28,6 +28,7 @@ I’m always open to any and all inquiries or collaboration — don’t hesitate
 ![Arduino Badge](https://img.shields.io/badge/Arduino-241f31?style=flat-square&logo=arduino)
 ![Bash Badge](https://img.shields.io/badge/Bash-241f31?style=flat-square&logo=gnubash)
 ![C++ Badge](https://img.shields.io/badge/C++-241f31?style=flat-square&logo=cplusplus)
+![CMake Badge](https://img.shields.io/badge/CMake-241f31?style=flat-square&logo=cmake)
 
 #### Web & Databases 🌐
 ![MySQL Badge](https://img.shields.io/badge/MySQL-241f31?style=flat-square&logo=mysql)

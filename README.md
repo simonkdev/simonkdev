@@ -27,6 +27,7 @@ I’m always open to any and all inquiries or collaboration — don’t hesitate
 ![Python Badge](https://img.shields.io/badge/Python-241f31?style=flat-square&logo=python)
 ![Arduino Badge](https://img.shields.io/badge/Arduino-241f31?style=flat-square&logo=arduino)
 ![Bash Badge](https://img.shields.io/badge/Bash-241f31?style=flat-square&logo=gnubash)
+![C++ Badge](https://img.shields.io/badge/C++-241f31?style=flat-square&logo=cplusplus)
 
 #### Web & Databases 🌐
 ![MySQL Badge](https://img.shields.io/badge/MySQL-241f31?style=flat-square&logo=mysql)
@@ -35,6 +36,8 @@ I’m always open to any and all inquiries or collaboration — don’t hesitate
 #### Tools and Platforms 🛠️
 ![Docker Badge](https://img.shields.io/badge/Docker-241f31?style=flat-square&logo=docker)
 ![GitHub Badge](https://img.shields.io/badge/GitHub-26a269?style=flat-square&logo=github)
+![Espressif Badge](https://img.shields.io/badge/Espressif-241f31?style=flat-square&logo=espressif)
+
 
 ##### Currently Learning 📖
 ![AI/ML%20Development Badge](https://img.shields.io/badge/AI/ML%20Development-613583?style=flat-square&logo=numpy)

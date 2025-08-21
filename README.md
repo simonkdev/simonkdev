@@ -46,5 +46,10 @@ I’m always open to any and all inquiries or collaboration — don’t hesitate
 ![Cybersecurity Badge](https://img.shields.io/badge/Cybersecurity-ffffff?style=flat-square&logo=kalilinux)
 
 ---------------------------------------------------
+![](https://nirzak-streak-stats.vercel.app/?user=simonkdev&theme=github_dark_dimmed&hide_border=false)<br/>
 
-![Github Stats](https://github-readme-stats.vercel.app/api?username=simonkdev&count_private=true&show_icons=true&include_all_commits=true)
+---------------------------------------------------
+
+
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+

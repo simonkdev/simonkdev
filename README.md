@@ -3,7 +3,6 @@
 Hi, I’m Simon — a German high school student with a strong passion for programming and technology.
 I currently work as a Junior Software Developer at BSED GmbH, where I gain practical experience while continuously refining my skills. Beyond that, I dedicate my spare time to exploring advanced topics in software development and experimenting with emerging technologies.
 
-I’m also the co-founder of TS-Code Studios, a developer group I started with a friend, where we collaborate on projects, exchange ideas, and build solutions together. 
 I’m always open to any and all inquiries or collaboration — don’t hesitate to get in touch.
 
 ![simonkdev@proton.me Badge](https://img.shields.io/badge/simonkdev@proton.me-ffffff?style=flat-square&logo=protonmail)

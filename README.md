@@ -19,8 +19,6 @@ I’m always open to any and all inquiries or collaboration — don’t hesitate
 
 #### Programming Languages 💻
 ![JavaScript Badge](https://img.shields.io/badge/JavaScript-241f31?style=flat-square&logo=javascript)
-![HTML Badge](https://img.shields.io/badge/HTML-241f31?style=flat-square&logo=html5)
-![CSS Badge](https://img.shields.io/badge/CSS-241f31?style=flat-square&logo=css3)
 ![C%20 Badge](https://img.shields.io/badge/C%20-241f31?style=flat-square&logo=c)
 ![Assembly%20(x86) Badge](https://img.shields.io/badge/Assembly%20(x86)-241f31?style=flat-square&logo=assemblyscript)
 [![Java Badge](https://img.shields.io/badge/Java-241f31?style=flat-square&logo=)](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxsWwhTNalYnA0S3iFLypicnoApDBVGuSENw&s)
@@ -28,7 +26,6 @@ I’m always open to any and all inquiries or collaboration — don’t hesitate
 ![Arduino Badge](https://img.shields.io/badge/Arduino-241f31?style=flat-square&logo=arduino)
 ![Bash Badge](https://img.shields.io/badge/Bash-241f31?style=flat-square&logo=gnubash)
 ![C++ Badge](https://img.shields.io/badge/C++-241f31?style=flat-square&logo=cplusplus)
-![CMake Badge](https://img.shields.io/badge/CMake-241f31?style=flat-square&logo=cmake)
 
 #### Web & Databases 🌐
 ![MySQL Badge](https://img.shields.io/badge/MySQL-241f31?style=flat-square&logo=mysql)
@@ -38,6 +35,8 @@ I’m always open to any and all inquiries or collaboration — don’t hesitate
 ![Docker Badge](https://img.shields.io/badge/Docker-241f31?style=flat-square&logo=docker)
 ![GitHub Badge](https://img.shields.io/badge/GitHub-26a269?style=flat-square&logo=github)
 ![Espressif Badge](https://img.shields.io/badge/Espressif-241f31?style=flat-square&logo=espressif)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 
 
 ##### Currently Learning 📖
@@ -51,4 +50,3 @@ I’m always open to any and all inquiries or collaboration — don’t hesitate
 ---------------------------------------------------
 
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
-

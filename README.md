@@ -1,51 +1,12 @@
-## Hello There 👋
-
-Hi, I’m Simon — a German high school student with a strong passion for programming and technology.
-I currently work as a Junior Software Developer at BSED GmbH, where I gain practical experience while continuously refining my skills. Beyond that, I dedicate my spare time to exploring advanced topics in software development and experimenting with emerging technologies.
-
-I’m always open to any and all inquiries or collaboration — don’t hesitate to get in touch.
+# 💫 About Me:
+Hi, I’m Simon! <br>I currently work as a Junior Software Developer at BSED GmbH while finishing my high school education in Germany. <br>Beyond that, I dedicate my spare time to exploring advanced topics in software development like operating systems development and artificial intelligence.<br>I plan to study theoretical physics or computer science at TUM Munich after my graduation in 2028.<br><br>🔬 Currently working on:<br>An application for compiling and testing Godot-VR projects for my teacher :)<br><br>📚 Currently learning:<br>More and more about operating systems to improve my old OS project<br><br>⚡️Fun Fact:<br>I learned to write an operating system from scratch before using Github properly 👀
 
 ![simonkdev@proton.me Badge](https://img.shields.io/badge/simonkdev@proton.me-ffffff?style=flat-square&logo=protonmail)
 
-----------------------------------------------------
+# 💻 Tech Stack:
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Nix](https://img.shields.io/badge/NIX-5277C3.svg?style=for-the-badge&logo=NixOS&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
-
-## Experience and Knowledge 🎓
-
-#### Operating Systems 💽
-![Arch%20(former%20daily%20driver) Badge](https://img.shields.io/badge/Arch%20(former%20daily%20driver)-1a5fb4?style=flat-square&logo=archlinux)
-![NixOS%20(daily%20driver) Badge](https://img.shields.io/badge/NixOS%20(daily%20driver)-a51d2d?style=flat-square&logo=nixos)
-
-#### Programming Languages 💻
-![JavaScript Badge](https://img.shields.io/badge/JavaScript-241f31?style=flat-square&logo=javascript)
-![C%20 Badge](https://img.shields.io/badge/C%20-241f31?style=flat-square&logo=c)
-![Assembly%20(x86) Badge](https://img.shields.io/badge/Assembly%20(x86)-241f31?style=flat-square&logo=assemblyscript)
-[![Java Badge](https://img.shields.io/badge/Java-241f31?style=flat-square&logo=)](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxsWwhTNalYnA0S3iFLypicnoApDBVGuSENw&s)
-![Python Badge](https://img.shields.io/badge/Python-241f31?style=flat-square&logo=python)
-![Arduino Badge](https://img.shields.io/badge/Arduino-241f31?style=flat-square&logo=arduino)
-![Bash Badge](https://img.shields.io/badge/Bash-241f31?style=flat-square&logo=gnubash)
-![C++ Badge](https://img.shields.io/badge/C++-241f31?style=flat-square&logo=cplusplus)
-
-#### Web & Databases 🌐
-![MySQL Badge](https://img.shields.io/badge/MySQL-241f31?style=flat-square&logo=mysql)
-![Node.js Badge](https://img.shields.io/badge/Node.js-241f31?style=flat-square&logo=nodedotjs)
-
-#### Tools and Platforms 🛠️
-![Docker Badge](https://img.shields.io/badge/Docker-241f31?style=flat-square&logo=docker)
-![GitHub Badge](https://img.shields.io/badge/GitHub-26a269?style=flat-square&logo=github)
-![Espressif Badge](https://img.shields.io/badge/Espressif-241f31?style=flat-square&logo=espressif)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-
-
-##### Currently Learning 📖
-![AI/ML%20Development Badge](https://img.shields.io/badge/AI/ML%20Development-613583?style=flat-square&logo=numpy)
-![Operating%20System%20Development Badge](https://img.shields.io/badge/Operating%20System%20Development-241f31?style=flat-square&logo=openbsd)
-![Cybersecurity Badge](https://img.shields.io/badge/Cybersecurity-ffffff?style=flat-square&logo=kalilinux)
-
----------------------------------------------------
-![](https://nirzak-streak-stats.vercel.app/?user=simonkdev&theme=github_dark_dimmed&hide_border=false)<br/>
-
----------------------------------------------------
-
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=simonkdev&theme=catppuccin_mocha&hide_border=true&include_all_commits=true&count_private=true)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=simonkdev&theme=catppuccin_mocha&hide_border=true)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=simonkdev&theme=catppuccin_mocha&hide_border=true&include_all_commits=true&count_private=true&layout=compact)

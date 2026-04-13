@@ -1,16 +1,5 @@
 # 💫 About Me:
-Hi, I’m Simon! <br>I currently work as a Junior Software Developer at BSED GmbH while finishing my high school education in Germany. <br>Beyond that, I dedicate my spare time to exploring advanced topics in software development like operating systems development and artificial intelligence.<br>After my graduation in 2028, I plan to study theoretical physics or computer science at TU Munich.<br><br>🔬 Currently working on:<br>
-
-Mason, my second big operating system project with new knowledge and a more refined approach.
-
-<br><br>
-📚 Currently learning:<br>
-
-Starting into Agentic AI
-
-<br><br>⚡️Fun Fact:<br>
-
-I learned to write an operating system from scratch before using Github properly 👀
+Hi, I’m Simon! <br>I currently work as a Junior Software Developer at BSED GmbH while finishing my high school education in Germany. <br>Beyond that, I dedicate my spare time to exploring advanced topics in software development like operating systems development and artificial intelligence.<br>After my graduation in 2028, I plan to study theoretical physics or computer science at TU Munich.<br><br>🔬 Currently working on:<br> Mason, my second big operating system project with new knowledge and a more refined approach.<br><br>📚 Currently learning:<br>Starting into Agentic AI<br><br>⚡️Fun Fact:<br>I learned to write an operating system from scratch before using Github properly 👀
 
 ![simonkdev@proton.me Badge](https://img.shields.io/badge/simonkdev@proton.me-ffffff?style=flat-square&logo=protonmail)
 

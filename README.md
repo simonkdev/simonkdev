@@ -8,4 +8,18 @@ Hi, I’m Simon! <br>I currently work as a Junior Software Developer at BSED Gmb
  ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 # 📊 GitHub Stats:
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=simonkdev"/>
+<!-- Github stats -->
+<table border="0">
+<tr border="0">
+<td width="50%" align="center">
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=simonkdev&layout=donut-vertical&theme=shadow_green&hide_border=true&no-bg=true&no-frame=true&show_icons=true&langs_count=8"/>
+</td>
+
+<td width="50%" align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com?user=simonkdev&theme=shadow_green&hide_border=true&show_icons=true" alt="GitHub Streak" /></a>
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=simonkdev&include_all_commits=true&rank_icon=github&theme=shadow_green&hide_border=true&no-bg=true&no-frame=true&show_icons=true" />
+</td>
+</tr>
+</table>
+
+<br>

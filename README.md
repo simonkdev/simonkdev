@@ -1,7 +1,7 @@
 # 💫 About Me:
 Hi, I’m Simon! <br>I currently work as a Junior Software Developer at BSED GmbH while finishing my high school education in Germany. <br>Beyond that, I dedicate my spare time to exploring advanced topics in software development like operating systems development and artificial intelligence.<br>After my graduation in 2028, I plan to study theoretical physics or computer science at TU Munich.<br><br>🔬 Currently working on:<br> Mason, my second big operating system project with new knowledge and a more refined approach.<br><br>📚 Currently learning:<br>Starting into Agentic AI and unsupervised ML<br><br>⚡️Fun Fact:<br>I learned to write an operating system from scratch before using Github properly 👀
 
-![simonkdev@proton.me Badge](https://img.shields.io/badge/simonkdev@proton.me-ffffff?style=flat-square&logo=protonmail)
+![simon.korten@proton.me Badge](https://img.shields.io/badge/simonkdev@proton.me-ffffff?style=flat-square&logo=protonmail)
 
 # 💻 Tech Stack:
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Nix](https://img.shields.io/badge/NIX-5277C3.svg?style=for-the-badge&logo=NixOS&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)

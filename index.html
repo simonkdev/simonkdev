@@ -3,14 +3,16 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Personal Projects</title>
+        <title>simonkdev</title>
         <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
         <header class="site-header">
             <a class="brand" href="index.html" aria-label="Home">
-                <span class="brand-mark">S</span>
-                <span>Your Name</span>
+                <span class="brand-mark">
+                    <img src="pfp.jpg" alt="" />
+                </span>
+                <span>Simon Korten || simonkdev</span>
             </a>
             <nav class="top-nav" aria-label="Primary navigation">
                 <a href="#projects">Projects</a>
@@ -20,12 +22,16 @@
 
         <main>
             <section class="hero section-shell">
-                <p class="eyebrow">Personal Website</p>
-                <h1>Short intro headline goes here.</h1>
+                <!--<p class="eyebrow">Developer Portfolio</p>-->
+                <h1>Hello There™</h1>
                 <p class="intro-text">
-                    Short intro text goes here. Keep this to two or three clear
-                    sentences about who you are, what you build, and what
-                    visitors can find on this site.
+                    I could put some fancy corporate-worded short essay about
+                    myself here. I probably should. But I am not even a legal
+                    adult yet so who cares anyway? Other teenagers go to
+                    parties, drink and start developing a smoking problem. I
+                    crouch in front of a computer screen grunting at errors and
+                    ripping my hair out as soon as I see red pixels in my
+                    terminal. Have fun looking at my social life replacements!
                 </p>
             </section>
 
@@ -36,11 +42,209 @@
             >
                 <div class="section-heading">
                     <p class="eyebrow">Projects</p>
-                    <h2 id="projects-title">Project collection</h2>
                 </div>
 
                 <div class="project-grid">
                     <a
+                        class="project-card"
+                        href="https://github.com/simonkdev/mason"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <span class="card-type">GitHub</span>
+                        <h3>Mason</h3>
+                        <p>
+                            A small operating system built as a learning
+                            project.
+                        </p>
+                    </a>
+                    <div class="project-card project-card-menu">
+                        <button
+                            class="card-button"
+                            type="button"
+                            aria-expanded="false"
+                            aria-controls="project-menu-1"
+                        >
+                            <span class="card-type">GitHub + Live</span>
+                            <span class="card-title"
+                                >Sentiment Analysis RNN</span
+                            >
+                            <span class="card-description"
+                                >A recurrent neural network (RNN) that
+                                classifies review text as positive or negative,
+                                implemented from scratch using numpy and
+                                pandas.</span
+                            >
+                        </button>
+                        <div id="project-menu-1" class="project-menu" hidden>
+                            <a
+                                href="https://github.com/simonkdev/sentiment-analysis-rnn"
+                                target="_blank"
+                                rel="noreferrer"
+                                >GitHub repository</a
+                            >
+                            <a
+                                href="https://skdev-sentiment-analysis.vercel.app/"
+                                target="_blank"
+                                rel="noreferrer"
+                                >Deployed website</a
+                            >
+                        </div>
+                    </div>
+                    <a
+                        class="project-card"
+                        href="https://github.com/simonkdev/digits-classification-mlp"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <span class="card-type">GitHub</span>
+                        <h3>Digits Classification MLP</h3>
+                        <p>
+                            A multilayer perceptron for MNIST digit recognition,
+                            written from scratch using numpy and devenv.
+                        </p>
+                    </a>
+                    <a
+                        class="project-card"
+                        href="https://github.com/simonkdev/kmeans-spotify-clustering"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <span class="card-type">GitHub</span>
+                        <h3>K-Means Spotify Clustering</h3>
+                        <p>
+                            A practical k-means implementation for clustering
+                            Spotify songs based on API-provided attributes.
+                        </p>
+                    </a>
+                    <a
+                        class="project-card"
+                        href="https://github.com/simonkdev/house_price_predictor"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <span class="card-type">GitHub</span>
+                        <h3>House Price Predictor</h3>
+                        <p>
+                            A fully reproducible linear regression model for
+                            predicting house prices, built from scratch.
+                        </p>
+                    </a>
+                    <a
+                        class="project-card"
+                        href="https://github.com/simonkdev/surface_analyser"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <span class="card-type">GitHub</span>
+                        <h3>Surface Analyser</h3>
+                        <p>
+                            A webapp that displays a map and provides ESA
+                            satellite data to analyse surface type coverage
+                            percentiles.
+                        </p>
+                    </a>
+                    <div class="project-card project-card-menu">
+                        <button
+                            class="card-button"
+                            type="button"
+                            aria-expanded="false"
+                            aria-controls="project-menu-2"
+                        >
+                            <span class="card-type">GitHub + Live</span>
+                            <span class="card-title"
+                                >LaTeX to Python Converter</span
+                            >
+                            <span class="card-description"
+                                >A webapp and API that converts LaTeX math
+                                strings to equivalent Python functions.</span
+                            >
+                        </button>
+                        <div id="project-menu-2" class="project-menu" hidden>
+                            <a
+                                href="https://github.com/simonkdev/latex_to_python"
+                                target="_blank"
+                                rel="noreferrer"
+                                >GitHub repository</a
+                            >
+                            <a
+                                href="https://dothefancymathforme.vercel.app/"
+                                target="_blank"
+                                rel="noreferrer"
+                                >Deployed website</a
+                            >
+                        </div>
+                    </div>
+                    <div class="project-card project-card-menu">
+                        <button
+                            class="card-button"
+                            type="button"
+                            aria-expanded="false"
+                            aria-controls="project-menu-3"
+                        >
+                            <span class="card-type">GitHub + Live</span>
+                            <span class="card-title">NixOS Configuration</span>
+                            <span class="card-description"
+                                >Flake-based NixOS configuration with custom
+                                modules and a modular approach.</span
+                            >
+                        </button>
+                        <div id="project-menu-3" class="project-menu" hidden>
+                            <a
+                                href="https://github.com/simonkdev/nix-configuration"
+                                target="_blank"
+                                rel="noreferrer"
+                                >GitHub repository</a
+                            >
+                            <a
+                                href="https://github.com/simonkdev/nix-configuration/wiki"
+                                target="_blank"
+                                rel="noreferrer"
+                                >Wiki</a
+                            >
+                        </div>
+                    </div>
+                    <a
+                        class="project-card"
+                        href="https://github.com/simonkdev/meta_xr_deployer"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <span class="card-type">GitHub</span>
+                        <h3>Meta XR Deployer</h3>
+                        <p>
+                            Graphical automation tool for Godot-based XR
+                            projects targeting Meta Quest devices.
+                        </p>
+                    </a>
+                    <a
+                        class="project-card"
+                        href="https://github.com/simonkdev/obsidian_andromeda"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <span class="card-type">GitHub</span>
+                        <h3>Obsidian Andromeda</h3>
+                        <p>
+                            Backup repository for personal learning and
+                            autodidact teachings.
+                        </p>
+                    </a>
+                    <a
+                        class="project-card"
+                        href="https://github.com/simonkdev/arch-dotfiles"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <span class="card-type">GitHub</span>
+                        <h3>Arch Dotfiles</h3>
+                        <p>
+                            Legacy Arch Linux configuration backup repository.
+                            (Switched to NixOS so it is unused by now)
+                        </p>
+                    </a>
+
+                    <!--<a
                         class="project-card"
                         href="https://github.com/username/repository"
                         target="_blank"
@@ -56,7 +260,7 @@
                             class="card-button"
                             type="button"
                             aria-expanded="false"
-                            aria-controls="project-menu-1"
+                            aria-controls="project-menu-4"
                         >
                             <span class="card-type">GitHub + Live</span>
                             <span class="card-title">Project Name</span>
@@ -64,7 +268,7 @@
                                 >Short project description goes here.</span
                             >
                         </button>
-                        <div id="project-menu-1" class="project-menu" hidden>
+                        <div id="project-menu-4" class="project-menu" hidden>
                             <a
                                 href="https://github.com/username/repository"
                                 target="_blank"
@@ -79,7 +283,6 @@
                             >
                         </div>
                     </div>
-
                     <a
                         class="project-card"
                         href="projects/project-template/index.html"
@@ -87,7 +290,7 @@
                         <span class="card-type">Physical Project</span>
                         <h3>Project Name</h3>
                         <p>Short project description goes here.</p>
-                    </a>
+                    </a>-->
                 </div>
             </section>
 
@@ -97,7 +300,12 @@
                 aria-labelledby="contact-title"
             >
                 <p class="eyebrow">Contact</p>
-                <h2 id="contact-title">Contact details go here.</h2>
+                <a
+                    id="contact-title"
+                    class="contact-button"
+                    href="mailto:simon.korten@pm.me"
+                    >this is a comically large mailto button</a
+                >
             </section>
         </main>
 

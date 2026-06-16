@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Personal Projects</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header class="site-header">
+            <a class="brand" href="index.html" aria-label="Home">
+                <span class="brand-mark">S</span>
+                <span>Your Name</span>
+            </a>
+            <nav class="top-nav" aria-label="Primary navigation">
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero section-shell">
+                <p class="eyebrow">Personal Website</p>
+                <h1>Short intro headline goes here.</h1>
+                <p class="intro-text">
+                    Short intro text goes here. Keep this to two or three clear
+                    sentences about who you are, what you build, and what
+                    visitors can find on this site.
+                </p>
+            </section>
+
+            <section
+                id="projects"
+                class="section-shell project-section"
+                aria-labelledby="projects-title"
+            >
+                <div class="section-heading">
+                    <p class="eyebrow">Projects</p>
+                    <h2 id="projects-title">Project collection</h2>
+                </div>
+
+                <div class="project-grid">
+                    <a
+                        class="project-card"
+                        href="https://github.com/username/repository"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <span class="card-type">GitHub</span>
+                        <h3>Project Name</h3>
+                        <p>Short project description goes here.</p>
+                    </a>
+
+                    <div class="project-card project-card-menu">
+                        <button
+                            class="card-button"
+                            type="button"
+                            aria-expanded="false"
+                            aria-controls="project-menu-1"
+                        >
+                            <span class="card-type">GitHub + Live</span>
+                            <span class="card-title">Project Name</span>
+                            <span class="card-description"
+                                >Short project description goes here.</span
+                            >
+                        </button>
+                        <div id="project-menu-1" class="project-menu" hidden>
+                            <a
+                                href="https://github.com/username/repository"
+                                target="_blank"
+                                rel="noreferrer"
+                                >GitHub repository</a
+                            >
+                            <a
+                                href="https://example.com"
+                                target="_blank"
+                                rel="noreferrer"
+                                >Deployed website</a
+                            >
+                        </div>
+                    </div>
+
+                    <a
+                        class="project-card"
+                        href="projects/project-template/index.html"
+                    >
+                        <span class="card-type">Physical Project</span>
+                        <h3>Project Name</h3>
+                        <p>Short project description goes here.</p>
+                    </a>
+                </div>
+            </section>
+
+            <section
+                id="contact"
+                class="section-shell contact-section"
+                aria-labelledby="contact-title"
+            >
+                <p class="eyebrow">Contact</p>
+                <h2 id="contact-title">Contact details go here.</h2>
+            </section>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>

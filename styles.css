@@ -325,9 +325,8 @@ h3 {
     display: grid;
     width: min(1500px, calc(100% - 32px));
     grid-template-columns: minmax(210px, 255px) minmax(0, 1040px);
-    justify-content: start;
+    justify-content: center;
     gap: clamp(28px, 4vw, 56px);
-    margin-inline: 16px auto;
     padding: 42px 0 82px;
 }
 
@@ -412,15 +411,15 @@ h3 {
 }
 
 .project-content h2 {
-    color: #a7f3d0;
+    color: var(--accent-dark);
 }
 
 .project-content h3 {
-    color: #fbbf24;
+    color: var(--accent);
 }
 
 .project-content h4 {
-    color: #93c5fd;
+    color: #d8b4fe;
 }
 
 .abstract {
@@ -443,7 +442,7 @@ h3 {
 }
 
 .seminar-subchapter > h2 {
-    margin-bottom: clamp(24px, 4vw, 36px);
+    margin-bottom: 16px;
 }
 
 .page-block {

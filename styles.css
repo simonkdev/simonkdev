@@ -378,6 +378,23 @@ h3 {
     content: "";
 }
 
+.toc-page-block {
+    position: relative;
+    padding: 4px 0 4px 38px;
+    font-size: 0.84rem;
+}
+
+.toc-page-block::before {
+    position: absolute;
+    top: 0;
+    bottom: 50%;
+    left: 24px;
+    width: 9px;
+    border-bottom: 1px solid rgba(183, 175, 200, 0.3);
+    border-left: 1px solid rgba(183, 175, 200, 0.3);
+    content: "";
+}
+
 .project-content {
     min-width: 0;
 }
@@ -399,7 +416,28 @@ h3 {
     scroll-margin-top: 92px;
 }
 
-.content-block:last-child {
+.seminar-subchapter {
+    padding: 14px 0 44px;
+    border-bottom: 1px solid rgba(52, 48, 66, 0.85);
+    scroll-margin-top: 92px;
+}
+
+.seminar-subchapter > h2 {
+    margin-bottom: 18px;
+}
+
+.page-block {
+    padding: 10px 0 28px;
+    scroll-margin-top: 92px;
+}
+
+.page-block + .page-block {
+    border-top: 1px solid rgba(52, 48, 66, 0.48);
+}
+
+.content-block:last-child,
+.seminar-subchapter:last-child,
+.page-block:last-child {
     border-bottom: 0;
 }
 
@@ -410,6 +448,7 @@ h3 {
 
 .abstract p,
 .content-block p,
+.page-block p,
 .content-list {
     color: var(--muted);
     line-height: 1.7;
@@ -421,38 +460,49 @@ h3 {
 }
 
 .project-media {
-    margin: 22px 0 8px;
+    display: grid;
+    justify-items: center;
+    margin: clamp(18px, 4vw, 30px) 0 10px;
 }
 
 .project-media img,
 .project-media video {
     display: block;
-    width: 100%;
-    max-height: 620px;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: min(72vh, 720px);
     border: 1px solid var(--line);
     background: var(--surface);
     object-fit: contain;
 }
 
 .project-media video {
-    aspect-ratio: 16 / 9;
+    width: min(100%, 960px);
+    max-height: min(72vh, 720px);
 }
 
+.project-media figcaption,
+.project-table-wrapper figcaption,
 .media-caption {
-    margin: 0 0 18px;
+    margin: 8px 0 0;
     color: var(--muted);
     font-size: 0.92rem;
+    font-style: italic;
     line-height: 1.5;
+    text-align: center;
 }
 
 .project-table-wrapper {
+    display: grid;
     width: 100%;
-    margin: 18px 0;
+    margin: clamp(18px, 4vw, 28px) 0;
     overflow-x: auto;
 }
 
 .project-table-wrapper table {
     width: 100%;
+    min-width: 620px;
     border-collapse: collapse;
 }
 

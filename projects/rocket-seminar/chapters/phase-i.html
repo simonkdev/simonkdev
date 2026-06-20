@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Phase I | Rocket Construction Seminar</title>
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../../../index.html" aria-label="Home">
+        <span class="brand-mark">
+          <img src="../../../pfp.jpg" alt="" />
+        </span>
+        <span>Simon Korten || simonkdev</span>
+      </a>
+      <nav class="top-nav" aria-label="Primary navigation">
+        <a href="../../../index.html#projects">Projects</a>
+        <a href="../../../index.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main class="section-shell project-layout">
+      <aside class="side-nav" aria-label="Project table of contents">
+<strong>Contents</strong>
+<a class="toc-chapter" href="../index.html">Abstract</a>
+<a class="toc-chapter" href="phase-i.html" aria-current="page">Phase I</a>
+<a class="toc-section" href="#designing-the-small-rockets">Designing the small rockets</a>
+<a class="toc-page-block" href="#designing-the-small-rockets-components-and-acquisition">Components and Acquisition</a>
+<a class="toc-page-block" href="#designing-the-small-rockets-materials">Materials</a>
+<a class="toc-page-block" href="#designing-the-small-rockets-appearance-and-styling">Appearance and Styling</a>
+<a class="toc-section" href="#first-launch">First Launch</a>
+<a class="toc-page-block" href="#first-launch-rocket-1">Rocket #1</a>
+<a class="toc-page-block" href="#first-launch-rocket-2">Rocket #2</a>
+<a class="toc-page-block" href="#first-launch-rocket-3">Rocket 3</a>
+<a class="toc-page-block" href="#first-launch-our-verdict">Our verdict</a>
+<a class="toc-chapter" href="phase-ii.html">Phase II</a>
+<a class="toc-section" href="phase-ii.html#the-big-rocket">The big rocket</a>
+<a class="toc-section" href="phase-ii.html#engine-fin-mount">Engine-fin mount</a>
+<a class="toc-page-block" href="phase-ii.html#engine-fin-mount-the-first-approach">The first approach</a>
+<a class="toc-page-block" href="phase-ii.html#engine-fin-mount-adding-fins">Adding fins</a>
+<a class="toc-page-block" href="phase-ii.html#engine-fin-mount-the-weight-issue">The weight issue</a>
+<a class="toc-section" href="phase-ii.html#recovery-system">Recovery system</a>
+<a class="toc-page-block" href="phase-ii.html#recovery-system-linear-motors">Linear motors</a>
+<a class="toc-page-block" href="phase-ii.html#recovery-system-co2-canisters-and-springs">CO2 canisters and springs</a>
+<a class="toc-page-block" href="phase-ii.html#recovery-system-ejection-charges">Ejection charges</a>
+<a class="toc-section" href="phase-ii.html#board-mpu">Board MPU</a>
+<a class="toc-page-block" href="phase-ii.html#board-mpu-the-mpu">The MPU</a>
+<a class="toc-page-block" href="phase-ii.html#board-mpu-the-issues">The issues</a>
+<a class="toc-section" href="phase-ii.html#despin-system">Despin System</a>
+<a class="toc-page-block" href="phase-ii.html#despin-system-the-approach">The approach</a>
+<a class="toc-page-block" href="phase-ii.html#despin-system-hardware-failures">Hardware failures</a>
+<a class="toc-page-block" href="phase-ii.html#despin-system-the-compromise">The compromise</a>
+<a class="toc-section" href="phase-ii.html#test-launch-day">Test-launch day</a>
+<a class="toc-chapter" href="phase-iii.html">Phase III</a>
+<a class="toc-section" href="phase-iii.html#the-final-rockets">The final rocket(s)</a>
+<a class="toc-section" href="phase-iii.html#the-final-launch">The final launch</a>
+<a class="toc-page-block" href="phase-iii.html#the-final-launch-flight-1">Flight #1</a>
+<a class="toc-page-block" href="phase-iii.html#the-final-launch-flight-2">Flight #2</a>
+<a class="toc-page-block" href="phase-iii.html#the-final-launch-flight-3">Flight #3</a>
+<a class="toc-page-block" href="phase-iii.html#the-final-launch-the-conclusion">The conclusion</a>
+</aside>
+
+      <article class="project-content">
+        <header>
+          <p class="eyebrow">Rocket Construction Seminar</p>
+          <h1>Phase I</h1>
+        </header>
+
+        <section id="designing-the-small-rockets" class="seminar-subchapter">
+          <h2>Designing the small rockets</h2>
+          <section id="designing-the-small-rockets-overview" class="page-block">
+
+<p>The first step was having the other students build small rockets to gain familiarity with the material, workflow, simulation software and physics behind rocketry. In order to make it as easy as possible for them, we designed the rocket for them much like it had been done for us during our internship.</p>
+</section>
+<section id="designing-the-small-rockets-components-and-acquisition" class="page-block">
+<h3>Components and Acquisition</h3>
+<p>We 3D-printed a custom engine/fin mount. It contains the premade mount for the rocket engine and holds the custom-made fins. The mounting points for the fins are slightly tilted to allow for a stabilizing rotation using aerodynamics.</p>
+<figure class="project-media"><img src="../media/IMG-20251017-WA0002.jpg" alt="" loading="lazy" /><figcaption>Fig 1: The final rocket/fin mount</figcaption></figure>
+<p>Using the simulation software OpenRocket, we finalised the design to fly about 230m high. To power them, we opted for the same thrust source as during our internship - D9-5 class solid-propellant rocket engines. The body parts, parachute and nose cone were all ordered from Klima, a store specifically for model rocketry. To deploy the parachute, we used the engine&#x27;s secondary explosive payload, which fires within 5 seconds of the primary thrust ending (this is where the &#x27;5&#x27; in D9-5 comes from).</p>
+<figure class="project-media"><img src="../media/Screenshot_20260619_144741.png" alt="" loading="lazy" /><figcaption>Fig 2: Design of the small rocket</figcaption></figure>
+<p>In the simulation file, we reached about 12.2% stability, slightly below the optimum of around 15.7%. We ended up shifting the center of gravity more toward the front while finishing the build process, which updated our stability to 16%.</p>
+</section>
+<section id="designing-the-small-rockets-materials" class="page-block">
+<h3>Materials</h3>
+<p>Every material impacted the weight distribution, center of gravity and structural integrity, so we spent quite a bit of time experimenting with our different options. This is what we ended up using:</p>
+<figure class="project-table-wrapper">
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Material</th>
+<th>Key reason for choice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fins</td>
+<td>Balsa wood</td>
+<td>weight</td>
+</tr>
+<tr>
+<td>Engine/fin mount</td>
+<td>White PLA filament</td>
+<td>price, stability, printing speed</td>
+</tr>
+<tr>
+<td>Fuselage</td>
+<td>Carton</td>
+<td>price</td>
+</tr>
+<tr>
+<td>Nose cone</td>
+<td>Plastic</td>
+<td>price, structural integrity</td>
+</tr>
+</tbody>
+</table>
+<figcaption>Fig 3: Materials used</figcaption></figure>
+</section>
+<section id="designing-the-small-rockets-appearance-and-styling" class="page-block">
+<h3>Appearance and Styling</h3>
+<p>For visuals, we opted for a red body, white engine/fin mount and wooden fins (custom made by the friend btw). The students were given the choice of a white or black nose cone, with the additional freedom of painting the rockets themselves, which resulted in some cool designs.</p>
+<figure class="project-media"><img src="../media/WhatsApp%20Image%202026-06-18%20at%2009.11.53%20%28Edited%29.jpeg" alt="" loading="lazy" /><figcaption>Fig 4: The rockets on launch day</figcaption></figure>
+</section>
+        </section><section id="first-launch" class="seminar-subchapter">
+          <h2>First Launch</h2>
+          <section id="first-launch-overview" class="page-block">
+
+<p>On December 3rd, 2025, we were ready for our first launch of the project. Every single rocket had been checked, every bit of orga was done, the DLR had agreed to take care of the launching procedure and about half of our teachers had been invited to watch.</p>
+</section>
+<section id="first-launch-rocket-1" class="page-block">
+<h3>Rocket #1</h3>
+<p>The first rocket did not even lift off, but this was the result of an exploding rocket engine. A lot of these types of rocket engines fail, especially when they are not brand-new, a frustrating but inescapable caveat of solid-propellant engines (only true regarding model rocket engines, not the ones proper rockets use).</p>
+<figure class="project-media"><video controls preload="metadata" src="../media/VID_20251203_143729.mp4"></video><figcaption>Fig 1: The first rocket</figcaption></figure>
+</section>
+<section id="first-launch-rocket-2" class="page-block">
+<h3>Rocket #2</h3>
+<p>Now using a factory-new engine, we went for a second launch using the next rocket. Due to a mistake in the weight distribution, this one also did not go too well. See for yourself:</p>
+<figure class="project-media"><video controls preload="metadata" src="../media/IMG_3990.mov"></video><figcaption>Fig 2: The second rocket</figcaption></figure>
+</section>
+<section id="first-launch-rocket-3" class="page-block">
+<h3>Rocket 3</h3>
+<p>For the third and final launch of the day, we finally got our success...partially</p>
+<figure class="project-media"><video controls preload="metadata" src="../media/VID_20251203_144454.mp4"></video></figure>
+<p>As you can see, it flew flawlessly - until it was time for the parachute. Up until this point, a lot of time and care had went into making sure the rockets would fly safely and perform satisfactorily. Shortly before the launch, we realized we did not have enough fireproof material to protect the parachutes in the rockets. In a fatal short-term decision, we decided to use plastic cups to take most of the heat instead of the plastic parachutes, figuring they would just be ejected in the same way the other material would. Our decision backfired, the rocket was completely destroyed by flying straight into the ground at over 200km/h.</p>
+</section>
+<section id="first-launch-our-verdict" class="page-block">
+<h3>Our verdict</h3>
+<p>Initially, we were frustrated and annoyed at our obvious mistakes. Looking back, this is just how science works: Trying stuff, failing, trying again, failing again etc. etc. etc. - The most important part is what we figured out: Its not exactly a good idea to assume something won&#x27;t get stuck :)</p>
+<p class="media-caption">Hint: We also launched some of these rockets at the other two launches. After removing the stupid cup idea from the rockets, every single one flew flawlessly :D</p>
+</section>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>

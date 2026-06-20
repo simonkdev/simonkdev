@@ -466,11 +466,11 @@ h3 {
 }
 
 .abstract h2,
-.content-block h2,
-.seminar-subchapter > h2 {
+.content-block h2 {
     font-size: clamp(1.35rem, 2.4vw, 1.9rem);
 }
 
+.seminar-subchapter > h2,
 .page-block > h3 {
     font-size: clamp(1.12rem, 2vw, 1.45rem);
 }

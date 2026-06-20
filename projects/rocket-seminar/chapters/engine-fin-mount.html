@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Engine-fin mount | Rocket Construction Seminar</title>
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../../../index.html" aria-label="Home">
+        <span class="brand-mark">
+          <img src="../../../pfp.jpg" alt="" />
+        </span>
+        <span>Simon Korten || simonkdev</span>
+      </a>
+      <nav class="top-nav" aria-label="Primary navigation">
+        <a href="../../../index.html#projects">Projects</a>
+        <a href="../../../index.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main class="section-shell project-layout">
+      <aside class="side-nav" aria-label="Project table of contents">
+<strong>Contents</strong>
+<a class="toc-chapter" href="../index.html">Abstract</a>
+<a class="toc-chapter" href="designing-the-small-rockets.html">Designing the small rockets</a>
+<a class="toc-section" href="designing-the-small-rockets.html#components-and-acquisition">Components and Acquisition</a>
+<a class="toc-section" href="designing-the-small-rockets.html#materials">Materials</a>
+<a class="toc-section" href="designing-the-small-rockets.html#appearance-and-styling">Appearance and Styling</a>
+<a class="toc-chapter" href="first-launch.html">First Launch</a>
+<a class="toc-section" href="first-launch.html#rocket-1">Rocket #1</a>
+<a class="toc-section" href="first-launch.html#rocket-2">Rocket #2</a>
+<a class="toc-section" href="first-launch.html#rocket-3">Rocket 3</a>
+<a class="toc-section" href="first-launch.html#our-verdict">Our verdict</a>
+<a class="toc-chapter" href="the-big-rocket.html">The big rocket</a>
+<a class="toc-chapter" href="engine-fin-mount.html" aria-current="page">Engine-fin mount</a>
+<a class="toc-section" href="#the-first-approach">The first approach</a>
+<a class="toc-section" href="#adding-fins">Adding fins</a>
+<a class="toc-section" href="#the-weight-issue">The weight issue</a>
+<a class="toc-chapter" href="recovery-system.html">Recovery system</a>
+<a class="toc-section" href="recovery-system.html#linear-motors">Linear motors</a>
+<a class="toc-section" href="recovery-system.html#co2-canisters-and-springs">CO2 canisters and springs</a>
+<a class="toc-section" href="recovery-system.html#ejection-charges">Ejection charges</a>
+<a class="toc-chapter" href="board-mpu.html">Board MPU</a>
+<a class="toc-section" href="board-mpu.html#the-mpu">The MPU</a>
+<a class="toc-section" href="board-mpu.html#the-issues">The issues</a>
+<a class="toc-chapter" href="despin-system.html">Despin System</a>
+<a class="toc-section" href="despin-system.html#the-approach">The approach</a>
+<a class="toc-section" href="despin-system.html#hardware-failures">Hardware failures</a>
+<a class="toc-section" href="despin-system.html#the-compromise">The compromise</a>
+<a class="toc-chapter" href="test-launch-day.html">Test-launch day</a>
+<a class="toc-chapter" href="the-final-rockets.html">The final rocket(s)</a>
+<a class="toc-chapter" href="the-final-launch.html">The final launch</a>
+<a class="toc-section" href="the-final-launch.html#flight-1">Flight #1</a>
+<a class="toc-section" href="the-final-launch.html#flight-2">Flight #2</a>
+<a class="toc-section" href="the-final-launch.html#flight-3">Flight #3</a>
+<a class="toc-section" href="the-final-launch.html#the-conclusion">The conclusion</a>
+</aside>
+
+      <article class="project-content">
+        <header>
+          <p class="eyebrow">Phase II</p>
+          <h1>Engine-fin mount</h1>
+        </header>
+
+        <section id="overview" class="content-block">
+
+<p>Arguably the most important component of a rocket is the engine. It provides thrust, enabling it to fly in the first place. The next most important one are the fins - They provide stability and guide the rocket to fly in the right direction. To actually attach both of these to a fuselage, you need some sort of mounting component that securely attaches them to the rest of the rocket. It should not hinder the functionality or create more problems.</p>
+</section>
+<section id="the-first-approach" class="content-block">
+<h2>The first approach</h2>
+<p>Our first print was printed in brown PLA filament and did not have any mounting points for fins. We completely designed it from scratch, with seven holes for solid propellant engines and a base with the same width as our couplers. It was heavy, but very sturdy. In a test run of igniting the same engines we were gonna use for the rocket later on within the mount it performed flawlessly. A very good starting point.</p>
+</section>
+<section id="adding-fins" class="content-block">
+<h2>Adding fins</h2>
+<p>Implementing mounting points for fins proved more challenging than expected. We had to start off by determining the right tolerances for our specific printer-filament combination to balance a good grip with actually being able to fit the fins inside. Next, we simulated different angle configurations for multiple different fin materials, shapes, thicknesses and sizes. Since they varied quite a bit, we settled for the median of 6 degrees. After multiple iterations of prints failing due to either lack of support or too much support, we dialed the angle back to 4.7 and called it a day.</p>
+</section>
+<section id="the-weight-issue" class="content-block">
+<h2>The weight issue</h2>
+<p>Later on in the project, the heavy mount became a problem. It threw off the rockets&#x27; center of gravity, reduced the available weight for the payload and created a logistical issue since we wanted multiple backups on hand for the launch (a lesson learnt from the small rockets&#x27; mount exploding due to malfunctioning engines). Our first action was reducing the infill, making the engine tubes shorter, the coupling less thick and shorter, the usual 3D-printing stuff. Next up we looked for a different filament to print with. After a bit of research, we landed on ASA Aero. ASA is infamous for its robust structural integrity, with the Aero variant being invented specifically for aerospace applications. We faced some challenges on our first attempts to print it, but after figuring it out the weight reduced to a fifth of the PLA version.</p>
+</section>
+      </article>
+    </main>
+  </body>
+</html>

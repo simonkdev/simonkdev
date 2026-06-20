@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Despin System | Rocket Construction Seminar</title>
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../../../index.html" aria-label="Home">
+        <span class="brand-mark">
+          <img src="../../../pfp.jpg" alt="" />
+        </span>
+        <span>Simon Korten || simonkdev</span>
+      </a>
+      <nav class="top-nav" aria-label="Primary navigation">
+        <a href="../../../index.html#projects">Projects</a>
+        <a href="../../../index.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main class="section-shell project-layout">
+      <aside class="side-nav" aria-label="Project table of contents">
+<strong>Contents</strong>
+<a class="toc-chapter" href="../index.html">Abstract</a>
+<a class="toc-chapter" href="designing-the-small-rockets.html">Designing the small rockets</a>
+<a class="toc-section" href="designing-the-small-rockets.html#components-and-acquisition">Components and Acquisition</a>
+<a class="toc-section" href="designing-the-small-rockets.html#materials">Materials</a>
+<a class="toc-section" href="designing-the-small-rockets.html#appearance-and-styling">Appearance and Styling</a>
+<a class="toc-chapter" href="first-launch.html">First Launch</a>
+<a class="toc-section" href="first-launch.html#rocket-1">Rocket #1</a>
+<a class="toc-section" href="first-launch.html#rocket-2">Rocket #2</a>
+<a class="toc-section" href="first-launch.html#rocket-3">Rocket 3</a>
+<a class="toc-section" href="first-launch.html#our-verdict">Our verdict</a>
+<a class="toc-chapter" href="the-big-rocket.html">The big rocket</a>
+<a class="toc-chapter" href="engine-fin-mount.html">Engine-fin mount</a>
+<a class="toc-section" href="engine-fin-mount.html#the-first-approach">The first approach</a>
+<a class="toc-section" href="engine-fin-mount.html#adding-fins">Adding fins</a>
+<a class="toc-section" href="engine-fin-mount.html#the-weight-issue">The weight issue</a>
+<a class="toc-chapter" href="recovery-system.html">Recovery system</a>
+<a class="toc-section" href="recovery-system.html#linear-motors">Linear motors</a>
+<a class="toc-section" href="recovery-system.html#co2-canisters-and-springs">CO2 canisters and springs</a>
+<a class="toc-section" href="recovery-system.html#ejection-charges">Ejection charges</a>
+<a class="toc-chapter" href="board-mpu.html">Board MPU</a>
+<a class="toc-section" href="board-mpu.html#the-mpu">The MPU</a>
+<a class="toc-section" href="board-mpu.html#the-issues">The issues</a>
+<a class="toc-chapter" href="despin-system.html" aria-current="page">Despin System</a>
+<a class="toc-section" href="#the-approach">The approach</a>
+<a class="toc-section" href="#hardware-failures">Hardware failures</a>
+<a class="toc-section" href="#the-compromise">The compromise</a>
+<a class="toc-chapter" href="test-launch-day.html">Test-launch day</a>
+<a class="toc-chapter" href="the-final-rockets.html">The final rocket(s)</a>
+<a class="toc-chapter" href="the-final-launch.html">The final launch</a>
+<a class="toc-section" href="the-final-launch.html#flight-1">Flight #1</a>
+<a class="toc-section" href="the-final-launch.html#flight-2">Flight #2</a>
+<a class="toc-section" href="the-final-launch.html#flight-3">Flight #3</a>
+<a class="toc-section" href="the-final-launch.html#the-conclusion">The conclusion</a>
+</aside>
+
+      <article class="project-content">
+        <header>
+          <p class="eyebrow">Phase II</p>
+          <h1>Despin System</h1>
+        </header>
+
+        <section id="overview" class="content-block">
+
+<p>Since the big rocket(s) were determined to carry experiments into and through microgravity and our rockets rotate quite fast for vectorial stability, we needed a despin system to guarantee nearly-zero-g acceleration since centripetal acceleration would effectively make the flight obsolete.</p>
+</section>
+<section id="the-approach" class="content-block">
+<h2>The approach</h2>
+<p>The plan we came up with was to use a Microprocessor Unit (MPU) and two servo motors to turn the experiments, which would be connected to the rocket through ball bearings, reducing friction. Combining this hardware with a PID stabilization algorithm, we would be able to cancel out the rockets&#x27; own rotation.  Implementing this would be a challenge, of course, but nothing that finding the right library couldn&#x27;t fix.</p>
+<figure class="project-media"><img src="../media/Screenshot_20260619_195150.png" alt="" loading="lazy" /></figure>
+<p class="media-caption">Fig 1: Wiring diagram of despin system</p>
+</section>
+<section id="hardware-failures" class="content-block">
+<h2>Hardware failures</h2>
+<p>For the MPUs, the choice fell to the Seeed Studio XIAO ESP32S3 (not the Sense version). They are often described as reliable, robust and excellent on power requirements. Additionally, they are quite small but pack a bunch of performance, more than enough to run a PID-algorithm on. On paper, they were excellent for our use case.</p>
+<p>For two months we worked on the circuit, which came with the challenge of providing 12 volts of battery power to the servos, using two mosfets and still keeping a small footprint with the MPU and its own battery.</p>
+<p>At this time, the first ESP died on us. We could not figure out why, and diagnosing using the official documentation didn&#x27;t help. The conclusion we reached was that we simply got unlucky and must have caught a bad chip or something. Ordering another unit of the same model, we moved on.</p>
+<p>After the replacement arrived (it took a long time), we encountered problems with the servos as one of the seminar students accidentally soldered off the contacts on not one but two of our three servos, meaning we had one servo left.</p>
+<p>The next MPU succumbed to a shortout caused by a faulty battery, which ultimately convinced us this was not the right path to take.</p>
+</section>
+<section id="the-compromise" class="content-block">
+<h2>The compromise</h2>
+<p>Having wasted multiple months of time and lots of money on this system, we decided to stop with this approach. Our final solution uses a less steep angle on the engine/fin mount to reduce the rockets&#x27; centripetal acceleration combined with ball bearings connecting the experiment to further reduce the force applied to its contents.</p>
+</section>
+      </article>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Recovery system | Rocket Construction Seminar</title>
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../../../index.html" aria-label="Home">
+        <span class="brand-mark">
+          <img src="../../../pfp.jpg" alt="" />
+        </span>
+        <span>Simon Korten || simonkdev</span>
+      </a>
+      <nav class="top-nav" aria-label="Primary navigation">
+        <a href="../../../index.html#projects">Projects</a>
+        <a href="../../../index.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main class="section-shell project-layout">
+      <aside class="side-nav" aria-label="Project table of contents">
+<strong>Contents</strong>
+<a class="toc-chapter" href="../index.html">Abstract</a>
+<a class="toc-chapter" href="designing-the-small-rockets.html">Designing the small rockets</a>
+<a class="toc-section" href="designing-the-small-rockets.html#components-and-acquisition">Components and Acquisition</a>
+<a class="toc-section" href="designing-the-small-rockets.html#materials">Materials</a>
+<a class="toc-section" href="designing-the-small-rockets.html#appearance-and-styling">Appearance and Styling</a>
+<a class="toc-chapter" href="first-launch.html">First Launch</a>
+<a class="toc-section" href="first-launch.html#rocket-1">Rocket #1</a>
+<a class="toc-section" href="first-launch.html#rocket-2">Rocket #2</a>
+<a class="toc-section" href="first-launch.html#rocket-3">Rocket 3</a>
+<a class="toc-section" href="first-launch.html#our-verdict">Our verdict</a>
+<a class="toc-chapter" href="the-big-rocket.html">The big rocket</a>
+<a class="toc-chapter" href="engine-fin-mount.html">Engine-fin mount</a>
+<a class="toc-section" href="engine-fin-mount.html#the-first-approach">The first approach</a>
+<a class="toc-section" href="engine-fin-mount.html#adding-fins">Adding fins</a>
+<a class="toc-section" href="engine-fin-mount.html#the-weight-issue">The weight issue</a>
+<a class="toc-chapter" href="recovery-system.html" aria-current="page">Recovery system</a>
+<a class="toc-section" href="#linear-motors">Linear motors</a>
+<a class="toc-section" href="#co2-canisters-and-springs">CO2 canisters and springs</a>
+<a class="toc-section" href="#ejection-charges">Ejection charges</a>
+<a class="toc-chapter" href="board-mpu.html">Board MPU</a>
+<a class="toc-section" href="board-mpu.html#the-mpu">The MPU</a>
+<a class="toc-section" href="board-mpu.html#the-issues">The issues</a>
+<a class="toc-chapter" href="despin-system.html">Despin System</a>
+<a class="toc-section" href="despin-system.html#the-approach">The approach</a>
+<a class="toc-section" href="despin-system.html#hardware-failures">Hardware failures</a>
+<a class="toc-section" href="despin-system.html#the-compromise">The compromise</a>
+<a class="toc-chapter" href="test-launch-day.html">Test-launch day</a>
+<a class="toc-chapter" href="the-final-rockets.html">The final rocket(s)</a>
+<a class="toc-chapter" href="the-final-launch.html">The final launch</a>
+<a class="toc-section" href="the-final-launch.html#flight-1">Flight #1</a>
+<a class="toc-section" href="the-final-launch.html#flight-2">Flight #2</a>
+<a class="toc-section" href="the-final-launch.html#flight-3">Flight #3</a>
+<a class="toc-section" href="the-final-launch.html#the-conclusion">The conclusion</a>
+</aside>
+
+      <article class="project-content">
+        <header>
+          <p class="eyebrow">Phase II</p>
+          <h1>Recovery system</h1>
+        </header>
+
+        <section id="overview" class="content-block">
+
+<p>In order to deploy our big parachute to save the rocket from crashing straight into the ground, we needed some sort of system to blow the rocket apart (without destroying it) and giving the parachute the necessary impulse to fold open and stop the free fall. Ideally, this would be digitally controlled to deploy at a specific altitude. It also needed to be as reliable as possible, meaning few moving parts and a simple mechanism.</p>
+</section>
+<section id="linear-motors" class="content-block">
+<h2>Linear motors</h2>
+<p>Motors pushing out the engine/fin mount, which would be attached to the parachute. A simple idea, purely reliant on the motors working. It seemed very fitting, we encountered multiple downsides to it:</p>
+<p>First of all, we had to ensure the parachute would not get caught on the motors, which would either stop it from unfolding or rip the lines connecting it to the fuselage. The solution we found where smooth covers for the motors that we could 3D-print and attach to either the motors or to the fuselage directly.</p>
+<p>Another problem was power usage. Strong linear motors typically require more than the 3.7V provided by LiPo batteries. This meant we needed to find a strong power source of around 12V that would occupy as little space as possible. Luckily, we solved this alongside the same issue we encountered with our despin system. We found little 12V batteries from Amazon that were almost smaller and lighter than even the smallest MPUs we had on hand.</p>
+<p>The last issue was the arrangement. For the mechanism to work, the linear motors would need to be at the bottom of the rocket, right above the engine/fin mount, securely attached to the inside of the fuselage. Right where the parachute also needed to be. Namely, a very big parachute rated for up to 5kg. Not much of a problem tho, assuming you can find the right size for the motors. Long story short: We didn&#x27;t.</p>
+</section>
+<section id="co2-canisters-and-springs" class="content-block">
+<h2>CO2 canisters and springs</h2>
+<p>The inspiration from this came from a commercially available solution, the so-called &quot;raptor recovery module&quot; for model rocketry. It releases the pressure from small CO2 capsules into the fuselage in one short burst. The gas escapes through the path of least resistence, flowing through the parachute and ejecting it out into the air. Since we did not have the budget or the weight capacity to use this one directly, we had to figure out a way to build it ourselves. As always, we encountered some issues.</p>
+<p>First up was opening the canisters. The inspiration uses small explosives that launch a pointy bit at the tin cap of the CO2 capsule with enough energy to burst it open. A limitation imposed by safety guidelines for german schools restricted us from using any form of explosive, no matter how safe it might me. Our teacher was (understandably) unwilling to take the risk, meaning we had to find an alternative way to generate that amount of energy. What we ended up with were springs released by a servo motor that also launch a pointy bit toward the capsule. We felt so confident in this idea that we designed and printed multiple prototypes for the release mechanism.</p>
+<figure class="project-media"><img src="../media/IMG_20260620_122349_972.jpg" alt="" loading="lazy" /></figure>
+<p class="media-caption">Fig 1: Final version of the ejection module, Front</p>
+<figure class="project-media"><img src="../media/IMG_20260620_122400_628.jpg" alt="" loading="lazy" /></figure>
+<p class="media-caption">Fig 2: Final version of the ejection module, Side/back</p>
+<p>Next up where the springs themselves. We could not find a consumer-grade solution, so we figured we had to resort to industrial providers to get a spring in the form factor and force category we needed. None of them were willing to sell under three-digit amounts tho, so we had to rethink the whole thing. At some point, one of the students had the amazing idea to use springs from nerf blasters. Specifically, the upgrade springs that you could get for older generations. They provided all the force we needed, around 10-12N, were reasonably priced, available in low quantity and fit our form factor. Perfect.</p>
+<p>The issue that stopped us from using this approach? Our partner, the DLR. Since none of us were qualified engineers and their engineers were not exactly thrilled about some students attempting something like this, we were not allowed to put this into the rocket they would end up launching. Disappointing, but fair reasoning.</p>
+</section>
+<section id="ejection-charges" class="content-block">
+<h2>Ejection charges</h2>
+<p>Another feature of the solid propellant engines we use for our rockets is the ejection charge. A small, secondary, delayed charge that generates enough impulse to split apart the small rockets at designated points and deploy their parachutes. Not even close to being enough for the big rocket. However, since we use multiple engines to lift the rocket up, we could also use more than one with an ejection charge. After some minor modifications to our engine/fin mount, we ended up with two holes that went through into the fuselage. Perfect for two ejection charges to blast through and propel the entire mount out of the rocket. A reliable delay, few moving parts, no additional cost and strong enough. The only downside was no electronic control over deploying them, but this same caveat brought the bonus of not needing to squeeze another MPU with its own battery into the lower fuselage. For all these benefits and very little downsides, this is what we went with.</p>
+</section>
+      </article>
+    </main>
+  </body>
+</html>

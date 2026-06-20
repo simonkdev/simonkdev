@@ -131,21 +131,21 @@ p {
 h1,
 h2,
 h3 {
-  margin: 0;
-  line-height: 1.12;
-  letter-spacing: 0;
+    margin: 0;
+    line-height: 1.12;
+    letter-spacing: 0;
 }
 
 h1 {
-  font-size: clamp(2.25rem, 5.2vw, 4.25rem);
+    font-size: clamp(2.25rem, 5.2vw, 4.25rem);
 }
 
 h2 {
-  font-size: clamp(1.5rem, 3vw, 2.35rem);
+    font-size: clamp(1.5rem, 3vw, 2.35rem);
 }
 
 h3 {
-  font-size: 1.2rem;
+    font-size: 1.2rem;
 }
 
 .intro-text {
@@ -165,7 +165,7 @@ h3 {
     align-items: end;
     justify-content: space-between;
     gap: 28px;
-    margin-bottom: 24px;
+    margin-bottom: 12px;
 }
 
 .project-grid {
@@ -286,39 +286,39 @@ h3 {
 }
 
 .contact-section {
-  border-top: 1px solid var(--line);
+    border-top: 1px solid var(--line);
 }
 
 .contact-button {
-  display: grid;
-  width: fit-content;
-  max-width: 100%;
-  min-height: 96px;
-  margin-inline: auto;
-  place-items: center;
-  padding: 24px 48px;
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  background: transparent;
-  color: var(--text);
-  font-size: clamp(1.2rem, 2.8vw, 1.9rem);
-  font-weight: 760;
-  line-height: 1.15;
-  text-align: center;
-  transition:
-    border-color 180ms ease,
-    box-shadow 180ms ease,
-    color 180ms ease,
-    transform 180ms ease;
+    display: grid;
+    width: fit-content;
+    max-width: 100%;
+    min-height: 96px;
+    margin-inline: auto;
+    place-items: center;
+    padding: 24px 48px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: transparent;
+    color: var(--text);
+    font-size: clamp(1.2rem, 2.8vw, 1.9rem);
+    font-weight: 760;
+    line-height: 1.15;
+    text-align: center;
+    transition:
+        border-color 180ms ease,
+        box-shadow 180ms ease,
+        color 180ms ease,
+        transform 180ms ease;
 }
 
 .contact-button:hover,
 .contact-button:focus-visible {
-  border-color: rgba(124, 58, 237, 0.55);
-  box-shadow: var(--shadow);
-  color: var(--accent);
-  outline: none;
-  transform: translateY(-2px);
+    border-color: rgba(124, 58, 237, 0.55);
+    box-shadow: var(--shadow);
+    color: var(--accent);
+    outline: none;
+    transform: translateY(-2px);
 }
 
 .project-layout {
@@ -442,7 +442,7 @@ h3 {
 }
 
 .seminar-subchapter > h2 {
-    margin-bottom: 16px;
+    margin-bottom: 10px;
 }
 
 .page-block {
